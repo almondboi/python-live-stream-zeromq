@@ -23,5 +23,5 @@ if __name__ == '__main__':
 
     # CHange host to your own IP Address
     
-    server.run(host=" ENTER IP HERE", port="5000", debug=False,
+    server.run(host=" ENTER IP HERE ", port="5000", debug=False,
 		threaded=False, use_reloader=False)
