@@ -21,5 +21,7 @@ def video_feed():
 if __name__ == '__main__':
     # server.run(debug = True)
 
+    # CHange host to your own IP Address
+    
     server.run(host="192.168.1.150", port="5000", debug=False,
 		threaded=False, use_reloader=False)
