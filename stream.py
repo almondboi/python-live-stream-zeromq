@@ -9,7 +9,6 @@ footage_socket.connect('tcp://localhost:5555')
 
 footage_socket.setsockopt_string(zmq.SUBSCRIBE, np.unicode(''))
 
-
 def streamer():
     while True:
         frame = footage_socket.recv_string()
