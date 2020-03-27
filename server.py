@@ -9,12 +9,12 @@ def generate():
       s = streamer()
       yield (b'--frame\r\n'b'Content-Type: image/jpeg\r\n\r\n' + s + b'\r\n\r\n')
 
-@server.route("/")
-def index():
-	# return the rendered template
-	return render_template("index.html")
+# @server.route("/")
+# def index():
+# 	# return the rendered template
+# 	return render_template("index.html")
 
-@server.route('/video_feed')
+@server.route('/')
 def video_feed():
   return Response(generate(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
