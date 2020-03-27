@@ -28,6 +28,6 @@ Run both client.py and server.py files in your virtual environment.
 
 Go to chrome and enter the URl below:
 
-> http://127.0.0.1:5000
+> http://<HOST IP>:5000
 
 A live stream of your webcam should now be shown. 
