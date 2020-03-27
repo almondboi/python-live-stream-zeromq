@@ -18,6 +18,8 @@ If there is more than one camera, change the number in:
 
 ## Viewing the Stream
 
+**In server.py, enter your local IP Address to allow other devices on the same network to view your stream.**
+
 Run both client.py and server.py files in your virtual environment.
 
 > python client.py
