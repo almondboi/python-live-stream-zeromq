@@ -16,7 +16,7 @@ If there is more than one camera, change the number in:
 
 > camera = cv2.VideoCapture(0) 
 
-## Viewing the Stream
+## Viewing the Stream in Chrome
 
 **In server.py, enter your local IP Address to allow other devices on the same network to view your stream.**
 
